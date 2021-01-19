@@ -5,7 +5,7 @@ categories:
   - blog
 tags:
   - Jekyll
-  - update
+  - daily
 ---
 
 Jekyll minimal mistake 테마와 github를 이용하여 블로그를 만들게 되었습니다.
