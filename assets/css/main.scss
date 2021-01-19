@@ -1,0 +1,30 @@
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
+
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
+$sans-serif: 'Noto Sans KR';
+$monospace: 'Source Code Pro';
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/air"; // skin
+@import "minimal-mistakes";
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Source+Code+Pro);
+
+// https://github.com/mmistakes/minimal-mistakes/issues/1219
+html {
+  font-size: 16px; // change to whatever
+  
+  @include breakpoint($medium) {
+    font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 20px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 22px; // change to whatever
+  }
+}
