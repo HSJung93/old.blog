@@ -7,8 +7,6 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {% endif %}
 
-{{ post.date | date: "%B %d, %Y" }}
-
 {% if site.search == true or page.layout == "search" %}
 {%- assign search_provider = site.search_provider | default: "lunr" -%}
 {%- case search_provider -%}
