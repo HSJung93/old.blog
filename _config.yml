@@ -121,6 +121,3 @@ category_archive:
   type: liquid
   path: /categories/
 
-posts:
-  type: liquid
-  path: /
