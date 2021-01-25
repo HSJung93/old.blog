@@ -3,7 +3,7 @@ main:
 #    url: /about/
   - title: "Timeline"
     url: /index/
-  - title: "Posts"
+  - title: "Category"
     url: /categories/
 #  - title: "Tags"
 #    url: /tags/
