@@ -27,6 +27,12 @@ comments:
   disqus:
     shortname: "hsjung93-github-io"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-6NFHN29X4H"
+    anonymize_ip: # true, false (default)
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
