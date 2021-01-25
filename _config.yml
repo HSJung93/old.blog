@@ -60,9 +60,9 @@ author:
   avatar : "/assets/images/profile.jpg"
   bio    : "Think stocastically, act like an engineer, and love math."
   links:
-    - label: "mail"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "jrps2212@gmail.com"
+      url: "mailto:jrps2212@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
