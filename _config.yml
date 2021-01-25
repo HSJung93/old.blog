@@ -38,9 +38,9 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -105,6 +105,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      date: true
       comments: true
       share: true
       related: true
@@ -119,6 +120,4 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+
