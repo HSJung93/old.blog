@@ -1,5 +1,5 @@
 ---
-title: "나만의 Jekyll 블로그 만드는 법"
+title: "Jekyll 블로그 만드는 간단한 방법"
 date: 2020-01-19T15:27:00+09:00
 categories:
   - blog
