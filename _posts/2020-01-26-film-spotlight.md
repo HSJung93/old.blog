@@ -6,6 +6,8 @@ categories:
 tags:
   - film
   - spotlight
+header:
+  teaser: /assets/images/spotlight.jpg
 ---
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/spotlight.jpg" alt="">
