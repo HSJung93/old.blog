@@ -69,7 +69,7 @@ plugins:
 author:
   name   : "Hoesung Jung"
   avatar : "/assets/images/profile.jpg"
-  bio    : "Think stocastically, act like an engineer, and love math."
+  bio    : "Think stochastically, act like an engineer, and love math."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
