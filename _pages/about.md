@@ -24,17 +24,26 @@ class HoesungJung:
     
     def isAvailable(self, language):
         if language in fluent:
-            return f"{__name} is available to do complete tasks with {language} without assistance."
+            return f"{__name} is available to do complete tasks \
+            with {language} without assistance."
 
         elif language in intermediate:
-            return f"{__name} is available to start experimental projects with {language} utilizing reference and resources of others."
+            return f"{__name} is available to start experimental projects \
+            with {language} utilizing reference and resources of the others."
 
         elif language in beginner:
-            return f"{__name} is available to recall a common knowledge or an understanding of basic techniques gained in a classroom with {language}"
+            return f"{__name} is available to recall a common knowledge \
+            or an understanding of basic techniques \
+            gained in a classroom with {language}"
 
         else:
-            return f"Now {__name} needs to google the another new language {language}... Thanks!"
+            return f"Now {__name} needs to google the another new language \
+            {language}... Thanks!"
 
-HoesungJung(["Python", "R", "HTML/CSS"], ["JavaScript/NodeJS", "Java"], ["C/C++", "Ruby"])
+HoesungJung(
+    ["Python", "R", "HTML/CSS"], 
+    ["JavaScript/NodeJS", "Java"], 
+    ["C/C++", "Ruby"]
+)
 HoesungJung.isAvailable("Python")
 ```
