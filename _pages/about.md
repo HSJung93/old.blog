@@ -47,3 +47,9 @@ HoesungJung(
 )
 HoesungJung.isAvailable("Python")
 ```
+
+## As a worker
+
+* March 2015 ~ March 2017: Charge of Quaters in Air Force Academy(Military Service)
+* November 2018 ~ April 2019: Big data and financial technology program in SNU
+* Summer 2019: Intership in Aizen Global
