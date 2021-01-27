@@ -17,19 +17,24 @@ Hoesung Jung is in the Department of Political Science and International Relatio
 ```python
 class HoesungJung:
     def __init__(self, fluent, intermediate, beginner):
+        self.__name = "Hoesung Jung"
         self.fluent = fluent
         self.intermediate = intermediate
         self.beginner = beginner
     
     def isAvailable(self, language):
         if language in fluent:
-            return f"to do complete tasks with {language} without assistance."
+            return f"{__name} is available to do complete tasks with {language} without assistance."
 
         elif language in intermediate:
-            return f"to start experimental projects with {language} utilizing reference and resources of others."
+            return f"{__name} is available to start experimental projects with {language} utilizing reference and resources of others."
 
         elif language in beginner:
-            return f"to recall a common knowledge or an understanding of basic techniques gained in a classroom with {language}"
+            return f"{__name} is available to recall a common knowledge or an understanding of basic techniques gained in a classroom with {language}"
+
+        else:
+            return f"Now {__name} needs to google the another new language {language}... Thanks!"
 
 HoesungJung(["Python", "R", "HTML/CSS"], ["JavaScript/NodeJS", "Java"], ["C/C++", "Ruby"])
+HoesungJung.isAvailable("Python")
 ```
