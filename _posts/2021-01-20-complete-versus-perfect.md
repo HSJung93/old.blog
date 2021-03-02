@@ -1,6 +1,6 @@
 ---
 title: "Complete Information Game vs. Perfect Information Game"
-date: 2020-01-21T13:37:00+09:00
+date: 2021-01-21T13:37:00+09:00
 categories:
   - memo
 tags:
