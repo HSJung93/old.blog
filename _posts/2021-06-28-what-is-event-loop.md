@@ -7,6 +7,8 @@ categories:
 tags:
   - event loop
   - javascript
+header:
+  teaser: /assets/images/code.jpg
 ---
 
 Best explanation ever!
