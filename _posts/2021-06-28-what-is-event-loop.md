@@ -1,5 +1,5 @@
 ---
-title: "What the heck is the event loop anyway?"
+title: "What The Heck Is The Event Loop Anyway?"
 date: 2021-06-27T13:37:00+16:10
 categories:
   - code
