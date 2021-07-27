@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome! This is Hoesung Jung's homepage."
+title: "정회성의 개발블로그"
 author_profile: true
 classes: wide
 redirect_from: 
@@ -8,49 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-## As a graduate
+## 백엔드 관련 프로젝트
+* 평화지수 프로젝트 웹 어플리케이션 구현(스프링 부트)
+* 부스트코스 풀스택 개발자 과정 프로젝트(스프링 MVC)
+* 하둡 맵리듀스/ 하이브/ 스파크 프로젝트
 
-Hoesung Jung is in the Department of Political Science and International Relations(International relations major) at Seoul National University. He hold a Bachelor's degree of Arts in Political Science and International Relations(Political science major). His research interests include political methodology, game thoery, and text analysis. For example, recent research *Matching with Network: How to Measure the Causal Effects of CAFTA* is dealing with reproducive procedure to infer causal effects with network data. He gave short presentation with this article in AsianPolmeth at January 13, 2021. *What Makes the Congressmen Aggresive: Fight Detection with Congress Committee Metting Log* is modeling motives of the congressmen's behaviour with subgame perfect Nash equilibrium and detecting fights in congress committee meeting log with distilled BERT model. 
+## 프론트엔드 관련 프로젝트
+* 리액트를 이용한 To-Do-List 만들기
+* 부스트코스 풀스택 개발자 과정 프로젝트(자바 스크립트 실습)
 
-## As a programmer 
+## 딥러닝/ 통계 데이터 분석 관련 프로젝트
+* 국회의원의 싸움과 국회의원 선수간의 게임 이론 모델 분석: 국회 상임위원회 회의록 분석
+* LSTM과 BERT를 이용한 국회의원 싸움 예측 모델 비교
+* 네트워크 데이터에 대한 매칭 방법론 연구: CAFTA의 효과 분석
+* 국회의원의 FTA 반응성에 대한 연구: 지역구 산업 비율과 FTA 발언 횟수의 상관관계
 
-```python
-class HoesungJung:
-    def __init__(self, fluent, intermediate, beginner):
-        self.__name = "Hoesung Jung"
-        self.fluent = fluent
-        self.intermediate = intermediate
-        self.beginner = beginner
-    
-    def isAvailable(self, language):
-        if language in self.fluent:
-            return f"{self.__name} is available to do complete tasks \
-            with {language} without assistance."
+## 프로그래밍 기술 스택  
+* Java
+* Python
+* R
+* HTML/CSS/JavaScript
+* 그 외 입문 수준: C, Ruby 
 
-        elif language in self.intermediate:
-            return f"{self.__name} is available to start experimental projects \
-            with {language} utilizing reference and resources of the others."
-
-        elif language in self.beginner:
-            return f"{self.__name} is available to recall a common knowledge \
-            or an understanding of basic techniques \
-            gained in a classroom with {language}"
-
-        else:
-            return f"Now {self.__name} needs to google the another new language \
-            {language}... Thanks!"
-
-hoesung = HoesungJung(
-    ["Python", "R", "HTML/CSS"], 
-    ["JavaScript/NodeJS", "Java"], 
-    ["C/C++", "Ruby"]
-)
-
-print(hoesung.isAvailable("Python"))
-```
-
-## As a worker
-
-* March 2015 ~ March 2017: Charge of Quaters in Air Force Academy(Military Service)
-* November 2018 ~ April 2019: Big data and financial technology program in SNU
-* Summer 2019: Intership in Aizen Global
+## 이력
+* 서울대학교 정치외교학과 정치학 전공 졸업
+* 공군 만기 전역
+* 서울대학교 빅데이터 핀테크 과정 수료
+* 에이젠 글로벌 인턴
+* 서울대학교 정치외교학 대학원 외교학 전공 졸업 예정
