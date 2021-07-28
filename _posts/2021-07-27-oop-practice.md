@@ -7,7 +7,7 @@ tags:
   - object-oriented-programming
   - python
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/harry.jpg
 ---
 
 유머 감각은 참 중요합니다. 이왕에 OOP를 연습하기로 마음 먹은 것, 저 자신을 class로 만들어보려고 했습니다. 
