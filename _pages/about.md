@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-저 광활한 하늘과 바다를 넘어 오시느라 고생하셨습니다...
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt=""> 
 Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/wiki/The_Monk_by_the_Sea][monk-wiki]
 
