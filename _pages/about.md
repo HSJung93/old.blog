@@ -43,4 +43,4 @@ redirect_from:
 
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
-[resume-page]: {% link _posts/2021-07-29-development-blog.md %}
+[resume-page]: {{ site.baseurl }}/_posts/2021-07-29-development-blog.md
