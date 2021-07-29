@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hoesung Jung
+title: 정회성의 개발 블로그
 email: jrps2212@gmail.com
 description: # this means to ignore newlines until "baseurl:"
-  Welcome! This is Hoesung Jung's homepage.
-twitter_username: username
+  어세오세요! 정회성의 개발 블로그에 오신 것을 환영합니다.
+# twitter_username: username
 github_username: HSJung93
 minimal_mistakes_skin: default
 search: true
@@ -67,34 +67,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hoesung Jung"
+  name   : "정회성"
   avatar : "/assets/images/profile.jpg"
-  bio    : "Think stochastically, act like an engineer, and love math."
+  bio    : "학창시절엔 수학과 통계학 수업을 많이 들었습니다. 책 속의 개념을 주위 사람들에게 쉽게 풀어 설명하는 것을 좋아했습니다. 대학원에 다녀보니 저는 사회과학자로서 연구를 하는 것보다는 프로그래머로서 실용적인 문제를 푸는 것을 더 좋아하더군요. 계속 배우고 발전하는 사람이 되고 싶습니다. 그런 점에서 프로그래밍은 제가 사랑하는 일이 아닐 수 없습니다. 광활한 오픈 소스로부터 모든 것을 배운만큼, 제가 아는 것들을 나누고 싶어 개발 블로그를 시작하게 되었습니다."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jrps2212@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "HackerRank"
+      icon: "fab fa-fw fa-hackerrank"
+      url: "https://www.hackerrank.com/ElliotJung?hr_r=1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HSJung93"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/%ED%9A%8C%EC%84%B1-%EC%A0%95-2183461b7/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "HackerRank"
+      icon: "fab fa-fw fa-hackerrank"
+      url: "https://www.hackerrank.com/ElliotJung?hr_r=1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HSJung93"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/%ED%9A%8C%EC%84%B1-%EC%A0%95-2183461b7/"
 
 defaults:
   # _posts
