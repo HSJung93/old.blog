@@ -7,7 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="Caspar David Friedrich, 해변의 수도승, 1808-10, https://en.wikipedia.org/wiki/The_Monk_by_the_Sea"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt=""> 
+* Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/wiki/The_Monk_by_the_Sea][monk-wiki]
 
 ## 백엔드 관련 프로젝트
 * 평화지수 프로젝트 풀스택 프로젝트(부트스트랩, 스프링 부트(타임리프), 마리아DB)
@@ -44,3 +45,4 @@ redirect_from:
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
 [resume-page]: {{ site.baseurl }}/blog/development-blog
+[monk-wiki]: https://en.wikipedia.org/wiki/The_Monk_by_the_Sea
