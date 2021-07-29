@@ -9,8 +9,6 @@ redirect_from:
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt=""> 
 
-<!-- 학창시절엔 수학과 통계학 수업을 많이 들었습니다. 책 속의 개념을 주위 사람들에게 쉽게 풀어 설명하는 것을 좋아했습니다. 대학원에 다녀보니 저는 사회과학자로서 연구를 하는 것보다는 프로그래머로서 실용적인 문제를 푸는 것을 더 좋아하더군요. 계속 배우고 발전하는 사람이 되고 싶습니다. 그런 점에서 프로그래밍은 제가 사랑하는 일이 아닐 수 없습니다. 약간의 검색과 시간을 할애하기만 하면, 지적인 호기심을 마음껏 충족시킬 수 있다는 사실은 제게 큰 위안이 되었습니다. 광활한 오픈 소스로부터 모든 것을 배운만큼, 제가 아는 것들을 나누고 싶어 개발 블로그를 시작하게 되었습니다. -->
-
 ## 백엔드 관련 프로젝트
 * 평화지수 프로젝트 풀스택 프로젝트(부트스트랩, 스프링 부트(타임리프), 마리아DB)
 * 부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC, MySQL)
@@ -28,13 +26,15 @@ redirect_from:
 * 국회의원의 싸움과 국회의원 선수간의 게임 이론 모델 분석: 국회 상임위원회 회의록 분석
 
 ## 프로그래밍 기술 스택  
-* Java
+* Java(SpringBoot, SpringMVC)
+* Hadoop(Mapreduce, Apache, Kafka)
 * Python(Pytorch)
 * R
-* HTML/CSS/JavaScript
+* MySQL, MariaDB
+* HTML/CSS/JavaScript(React)
 * 그 외: C, Ruby, Kotlin
 
-## 이력
+## [이력][resume-page]
 * 서울대학교 정치외교학과 졸업
 * 공군 만기 전역
 * 서울대학교 빅데이터 핀테크 과정 수료
@@ -43,3 +43,4 @@ redirect_from:
 
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
+[resume-page]: ({% link _posts/2021-07-29-development-blog.md %})
