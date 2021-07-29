@@ -69,7 +69,7 @@ plugins:
 author:
   name   : "정회성"
   avatar : "/assets/images/profile.jpg"
-  bio    : "학창시절엔 수학과 통계학 수업을 많이 들었습니다. 책 속의 개념을 주위 사람들에게 쉽게 풀어 설명하는 것을 좋아했습니다. 대학원에 다녀보니 저는 사회과학자로서 연구를 하는 것보다는 프로그래머로서 실용적인 문제를 푸는 것을 더 좋아하더군요. 계속 배우고 발전하는 사람이 되고 싶습니다. 그런 점에서 프로그래밍은 제가 사랑하는 일이 아닐 수 없습니다. 광활한 오픈 소스로부터 모든 것을 배운만큼, 제가 아는 것들을 나누고 싶어 개발 블로그를 시작하게 되었습니다."
+  bio    : "Think stochastically, act like an engineer, and love math."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
