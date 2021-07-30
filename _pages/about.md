@@ -12,12 +12,13 @@ redirect_from:
 Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/wiki/The_Monk_by_the_Sea][monk-wiki]
 
 ## 백엔드 관련 프로젝트
-* 평화지수 프로젝트 풀스택 프로젝트(부트스트랩, 스프링 부트(타임리프), 마리아DB)
-* 부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC, MySQL)
-* [자바 병렬 프로그래밍 프로젝트][concurrency-github]
+* [평화지수 웹 어플리케이션 (부트스트랩, 스프링 부트(타임리프), 마리아DB)][peace-github]
+* [부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC, MySQL)][back-github]
+* [자바 병렬 프로그래밍][concurrency-github]
+* [하둡 맵리듀스][hadoop-mapreduce-github]
 
 ## 프론트엔드 관련 프로젝트
-* 부스트코스 풀스택 개발자 과정 프론트엔드 프로젝트(HTML/CSS/자바스크립트)
+* [부스트코스 풀스택 개발자 과정 프론트엔드 프로젝트(HTML/CSS/자바스크립트)][front-github]
 * [To-Do-List 만들기(리액트)][react-github]
 
 ## 딥러닝/ 통계 데이터 분석 관련 프로젝트
@@ -29,11 +30,11 @@ Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/
 
 ## 프로그래밍 기술 스택  
 * Java(SpringBoot, SpringMVC)
-* Hadoop(Mapreduce, Apache, Kafka)
+* Hadoop(Mapreduce)
+* HTML/CSS/JavaScript(React)
+* MySQL, MariaDB
 * Python(Pytorch)
 * R
-* MySQL, MariaDB
-* HTML/CSS/JavaScript(React)
 * 그 외: C, Ruby, Kotlin
 
 ## [이력][resume-page]
@@ -47,3 +48,7 @@ Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
 [resume-page]: {{ site.baseurl }}/blog/development-blog
 [monk-wiki]: https://en.wikipedia.org/wiki/The_Monk_by_the_Sea
+[peace-github]: https://github.com/HSJung93/WebPeaceIndex
+[hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
+[back-github]: https://github.com/HSJung93/guestbook
+[front-github]: https://github.com/HSJung93/frontend_practice
