@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt=""> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="">  
 Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/wiki/The_Monk_by_the_Sea][monk-wiki]
 
 ## 백엔드 관련 프로젝트
