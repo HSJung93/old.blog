@@ -50,5 +50,5 @@ Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/
 [monk-wiki]: https://en.wikipedia.org/wiki/The_Monk_by_the_Sea
 [peace-github]: https://github.com/HSJung93/WebPeaceIndex
 [hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
-[back-github]: https://github.com/HSJung93/guestbook
+[back-github]: https://github.com/HSJung93/-Java-Backend-SpringMVCPractice
 [front-github]: https://github.com/HSJung93/frontend_practice
