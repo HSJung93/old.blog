@@ -12,8 +12,8 @@ redirect_from:
 Caspar David Friedrich, 해변의 수도승, 1808-10, [https://en.wikipedia.org/wiki/The_Monk_by_the_Sea][monk-wiki]
 
 ## 백엔드 관련 프로젝트
-* [평화지수 웹 어플리케이션 (부트스트랩, 스프링 부트(타임리프), 마리아DB)][peace-github]
-* [부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC, MySQL)][back-github]
+* [평화지수 웹 어플리케이션 (부트스트랩, 스프링 부트(타임리프, JPA), 마리아DB)][peace-github]
+* [부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC(JDBC), MySQL)][back-github]
 * [자바 병렬 프로그래밍][concurrency-github]
 * [하둡 맵리듀스][hadoop-mapreduce-github]
 
