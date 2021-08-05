@@ -43,7 +43,7 @@ redirect_from:
 * R
 * 그 외: C, Ruby, Kotlin
 
-## [이력][resume-page]
+## 이력
 * 서울대학교 정치외교학과 졸업
 * 공군 만기 전역
 * 서울대학교 빅데이터 핀테크 과정 수료
@@ -52,7 +52,7 @@ redirect_from:
 
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
-[resume-page]: {{ site.baseurl }}/blog/development-blog
+<!-- [resume-page]: {{ site.baseurl }}/blog/development-blog -->
 [peace-github]: https://github.com/HSJung93/WebPeaceIndex
 [hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
 [back-github]: https://github.com/HSJung93/-Java-Backend-SpringMVCPractice
