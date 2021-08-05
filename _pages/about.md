@@ -22,6 +22,7 @@ redirect_from:
 * [부스트코스 풀스택 개발자 과정 백엔드 프로젝트(스프링 MVC(JDBC), MySQL)][back-github]
 * [자바 병렬 프로그래밍][concurrency-github]
 * [하둡 맵리듀스][hadoop-mapreduce-github]
+* [자바 계산기][calculator-github]
 
 ## 프론트엔드 관련 프로젝트
 * [부스트코스 풀스택 개발자 과정 프론트엔드 프로젝트(HTML/CSS/자바스크립트)][front-github]
@@ -57,4 +58,5 @@ redirect_from:
 [hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
 [back-github]: https://github.com/HSJung93/-Java-Backend-SpringMVCPractice
 [front-github]: https://github.com/HSJung93/frontend_practice
+[calculator-github]: https://github.com/HSJung93/Calculator
 
