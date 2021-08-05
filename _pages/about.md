@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "정회성 개발자 포트폴리오"
+title: ""
 author_profile: true
 classes: wide
 redirect_from: 
