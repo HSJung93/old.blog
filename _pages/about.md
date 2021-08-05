@@ -1,17 +1,16 @@
 ---
 permalink: /
-title: "정회성의 개발블로그에 오신 것을 환영합니다."
+title: "정회성 개발자 포트폴리오"
 author_profile: true
 classes: wide
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-<a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="" > 
-    <!-- <p style="text-align: right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </p> -->
-</a> 
+## 개요
+* 효율적으로 문제를 해결하기 위하여 코드 속 라이브러리와 프레임워크의 작동 방식에 대해 이해하고 고민하는 새로 학습하는 과정을 좋아합니다.
+* 적극적인 커뮤니케이션을 통하여 팀에 기여할 수 있는, 기본기가 탄탄한 개발자로 성장하고 싶습니다.
+* 수학과 통계학을 석사 수준으로 공부하였고, 라이브러리에 대한 영문 문서를 읽고 영어로 커뮤니케이션하는데에 문제가 없습니다.  
 
 ## 백엔드 관련 프로젝트
 * [평화지수 웹 어플리케이션 (부트스트랩, 스프링 부트(타임리프, JPA), 마리아DB)][peace-github]
@@ -53,3 +52,8 @@ redirect_from:
 [hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
 [back-github]: https://github.com/HSJung93/-Java-Backend-SpringMVCPractice
 [front-github]: https://github.com/HSJung93/frontend_practice
+
+<a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="" > 
+    <!-- <p style="text-align: right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </p> -->
+</a> 
