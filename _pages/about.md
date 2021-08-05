@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="" href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">  
-<span style="text-align:right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </span>
+<p style="text-align:right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </p>
 
 ## 백엔드 관련 프로젝트
 * [평화지수 웹 어플리케이션 (부트스트랩, 스프링 부트(타임리프, JPA), 마리아DB)][peace-github]
