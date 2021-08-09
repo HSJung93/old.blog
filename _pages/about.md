@@ -35,7 +35,7 @@ redirect_from:
 * 국회의원의 FTA 반응성에 대한 연구: 지역구 산업 비율과 FTA 발언 횟수의 상관관계
 * 국회의원의 싸움과 국회의원 선수간의 게임 이론 모델 분석: 국회 상임위원회 회의록 분석
 
-## 프로그래밍 기술 스택  
+## 기술 스택  
 * Java(SpringBoot, SpringMVC)
 * Hadoop(Mapreduce)
 * HTML/CSS/JavaScript(React)
