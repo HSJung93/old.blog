@@ -11,6 +11,6 @@ header:
   teaser: /assets/images/code.jpg
 ---
 
-Best explanation ever!
+자바 스크립트의 V8 엔진과 비동기, 이벤트 루프 등에 대한 최고의 설명!!!(별 다섯개)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

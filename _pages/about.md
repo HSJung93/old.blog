@@ -54,7 +54,7 @@ redirect_from:
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
 <!-- [resume-page]: {{ site.baseurl }}/blog/development-blog -->
-[peace-github]: https://github.com/HSJung93/WebPeaceIndex
+[peace-github]: https://github.com/HSJung93/-Java-WebPeaceIndex
 [hadoop-mapreduce-github]: https://github.com/HSJung93/-Java-Backend-HadoopMapreducePractice
 [back-github]: https://github.com/HSJung93/-Java-Backend-SpringMVCPractice
 [front-github]: https://github.com/HSJung93/frontend_practice
