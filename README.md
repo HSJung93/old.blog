@@ -1,27 +1,8 @@
-# Minimal Mistakes remote theme starter
+# 개발 블로그를 위한 코드 저장소입니다. 
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)를 이용한 정적인 웹입니다. 정적이긴 하지만 블로그의 용도로는 충분합니다. Jekyll 테마와 깃허브를 이용해서 블로그를 만들고 싶으신 분은, [블로그의 포스팅][how-to-blog-page]을 보고 따라하시면 좋을 것 같습니다.
 
-Contains basic configuration to get you a site with:
+[how-to-blog-page]: https://hsjung93.github.io/blog/how-to-blog.md
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
----
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+<!-- {{ site.baseurl }} -->
