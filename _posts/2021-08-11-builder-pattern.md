@@ -99,6 +99,10 @@ public class Griffindor{
         private String sex = 0;
         private String hobby = 0;
 
+        public Builder(String name) {
+            this.name = name;
+        }
+
         public Builder sex(String val) {
             sex = val;
             return this;
