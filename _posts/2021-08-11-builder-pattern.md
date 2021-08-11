@@ -9,6 +9,8 @@ tags:
   - getter setter
 header:
   teaser: /assets/images/code.jpg
+toc: true
+toc_sticky: true
 ---
 
 자바를 통한 백엔드 서버 구현에 익숙해지는 한창입니다. 빌더 패턴(Builder Pattern)에 대하여 제대로 알고 싶은 충동과 필요를 느끼게 되었습니다. 이제는 서버 개발할 때 lombok의 어노테이션 한번으로 많은 것이 해결되어 버리긴 하지만, 흐리슬쩍 넘어가기에는 너무나 신경이 쓰입니다.
