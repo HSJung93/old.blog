@@ -22,7 +22,7 @@ redirect_from:
   * Java
   * SpringBoot, SpringMVC, Spring Data JPA
   * JPA
-  * Junit4
+  * Junit4, Junit5
   * Gradle, Maven
   * IntelliJ, Visual Studio Code
   * Git
@@ -36,7 +36,11 @@ redirect_from:
 * Python(Pytorch), R, Hadoop(Mapreduce), etc.
 
 ## 백엔드 관련 프로젝트
-* [평화지수 웹 어플리케이션 ][peace-github]
+* [나홀로 웹에][alone-github]
+  * SpringBoot, JPA, Gradle
+  * Mustache, JUnit4, MariaDB
+  * AWS EC3, RDS, S3, Travis CI, nginx
+* [평화지수 웹 어플리케이션][peace-github]
   * SpringBoot, JPA
   * Maria DB
   * Bootstrap, Thymeleaf
@@ -77,3 +81,4 @@ redirect_from:
 [front-github]: https://github.com/HSJung93/frontend_practice
 [calculator-github]: https://github.com/HSJung93/Calculator
 
+[alone-github]: https://github.com/HSJung93/alone-webservice
