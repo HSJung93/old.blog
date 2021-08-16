@@ -2,7 +2,7 @@
 title: "직렬화(Serialization)와 역직렬화(Deserialization)"
 date: 2021-08-15T21:21:15+09:00
 categories:
-  - code
+  - 메모
 tags:
   - serialization
   - deserialization

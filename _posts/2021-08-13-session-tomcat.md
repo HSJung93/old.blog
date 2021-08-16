@@ -2,7 +2,7 @@
 title: "2대 이상의 서버에서 세션을 어떻게 관리해야하는가?"
 date: 2021-08-13T21:13:55+09:00
 categories:
-  - code
+  - 메모
 tags:
   - session
   - tomcat

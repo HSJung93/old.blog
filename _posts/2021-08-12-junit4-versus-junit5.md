@@ -2,7 +2,7 @@
 title: "JUnit4 vs JUnit5"
 date: 2021-08-12T21:18:00+09:00
 categories:
-  - code
+  - 메모
 tags:
   - java
   - junit
