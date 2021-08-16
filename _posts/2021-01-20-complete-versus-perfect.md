@@ -2,7 +2,7 @@
 title: "Complete Information Game vs. Perfect Information Game"
 date: 2021-01-21T13:37:00+09:00
 categories:
-  - memo
+  - 메모
 tags:
   - game theory
 toc: true

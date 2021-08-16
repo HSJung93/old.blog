@@ -2,7 +2,7 @@
 title: "제발 윈도우OS면 Chocolately 사용합시다"
 date: 2021-07-28T12:03:00+09:00
 categories:
-  - blog
+  - 블로그
 tags:
   - cholately
   - tutorial

@@ -2,7 +2,7 @@
 title: "List Comprehension for Dictionary in Python"
 date: 2021-07-07T17:07:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - list comprehension
   - python

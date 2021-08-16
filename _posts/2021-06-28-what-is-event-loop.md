@@ -2,7 +2,7 @@
 title: "이벤트 루트, 이 말뼉따구는 대체 뭐야(What The Heck Is The Event Loop Anyway)?"
 date: 2021-06-27T16:10:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - event loop
   - javascript

@@ -2,7 +2,7 @@
 title: "밀리언 달러 베이비: 삶은 패배하지 않는다"
 date: 2021-01-31T11:36:00+09:00
 categories:
-  - review
+  - 리뷰
 tags:
   - film
   - million dollar baby

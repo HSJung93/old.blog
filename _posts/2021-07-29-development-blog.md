@@ -2,7 +2,7 @@
 title: "이력을 적으면서 드는 소회"
 date: 2021-07-29T16:11:00+09:00
 categories:
-  - blog
+  - 블로그
 tags:
   - Jekyll
   - daily

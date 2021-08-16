@@ -2,7 +2,7 @@
 title: "링크드 리스트 vs 배열"
 date: 2021-08-09T17:06:00+09:00
 categories:
-  - memo
+  - 메모
 tags:
   - linked list
   - 시간 복잡도

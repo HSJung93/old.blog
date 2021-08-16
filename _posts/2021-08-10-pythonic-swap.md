@@ -2,7 +2,7 @@
 title: "파이썬스러운 스왑"
 date: 2021-08-10T21:30:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - pythonic 
   - swap

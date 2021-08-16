@@ -2,7 +2,7 @@
 title: "파이썬을 이용한 객체지향 연습"
 date: 2021-07-27T15:03:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - object-oriented-programming
   - python

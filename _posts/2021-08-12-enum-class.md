@@ -2,7 +2,7 @@
 title: "Enum class란"
 date: 2021-08-12T22:ㄹㄹ:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - enum
   - class

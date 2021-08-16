@@ -2,7 +2,7 @@
 title: "빌더 패턴(Builder Pattern)이란 무엇이며 왜 쓰는가?"
 date: 2021-08-11T18:38:00+09:00
 categories:
-  - code
+  - 코드
 tags:
   - java
   - builder pattern

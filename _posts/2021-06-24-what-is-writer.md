@@ -2,7 +2,7 @@
 title: "글만 안쓰면 참 좋은 직업"
 date: 2021-06-24T14:40:00+09:00
 categories:
-  - memo
+  - 메모
 tags:
   - quotes
 ---

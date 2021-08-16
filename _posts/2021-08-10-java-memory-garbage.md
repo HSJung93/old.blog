@@ -2,7 +2,7 @@
 title: "자바 메모리 관리와 가비지 컬렉션"
 date: 2021-08-10T14:40:00+09:00
 categories:
-  - memo
+  - 메모
 tags:
   - JVM
   - JGC

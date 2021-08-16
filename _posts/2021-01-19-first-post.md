@@ -2,7 +2,7 @@
 title: "블로그를 만들었습니다"
 date: 2021-01-19T14:23:00+09:00
 categories:
-  - blog
+  - 블로그
 tags:
   - Jekyll
   - daily
