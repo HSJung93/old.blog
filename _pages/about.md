@@ -25,7 +25,7 @@ redirect_from:
   * Spring Security, OAuth 2.0
   * Junit4, Junit5
   * Gradle, Maven
-  * IntelliJ, Visual Studio Code
+  * IntelliJ, Visual Studio Code, Vim
   * Git
 * DevOps
   * AWS EC2, S3
