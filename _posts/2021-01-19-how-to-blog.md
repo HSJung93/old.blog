@@ -6,7 +6,6 @@ categories:
 tags:
   - Jekyll
   - tutorial
-paginate_path: '/index/:num/pagination-plugin/'
 ---
 
 이 포스트에서는 github와 Jekyll을 이용하여 블로그를 만들고 커스터마이징하는 법을 다룹니다.
