@@ -46,7 +46,8 @@ classes: wide
   * React
 * Python(Pytorch), R, Hadoop(Mapreduce), etc.
 
-## 그 외 프로젝트 
+## 그 외
+
 ### 프론트엔드 관련 프로젝트
 * [부스트코스 풀스택 개발자 과정 프론트엔드][front-github]
   * Vanilla JS
