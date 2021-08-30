@@ -52,6 +52,7 @@ classes: wide
   * Vanilla JS
 * [To-Do-List 만들기][react-github]
   * React
+
 ### 딥러닝/ 통계 데이터 분석 관련 프로젝트
 * LSTM과 BERT를 이용한 국회의원 싸움 예측 모델 비교
 * 네트워크 데이터의 매칭 방법론 연구: CAFTA의 효과 분석
