@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+author_profile: false
 title: ""
 classes: wide
 ---
