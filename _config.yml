@@ -38,12 +38,6 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-pagination: 
-  enabled: true
-  per_page: 10
-  sort_reverse: true
-  sort_field: true
-  title: ':title'
 
 paginate: 10 # amount of posts to show
 paginate_path: "/page:num/"
@@ -67,7 +61,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
