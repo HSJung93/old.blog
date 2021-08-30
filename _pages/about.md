@@ -1,11 +1,10 @@
 ---
 permalink: /about/
 title: ""
-author_profile: true
 classes: wide
 ---
 <a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="" > 
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/profile.jpg" alt="" > 
     <!-- <p style="text-align: right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </p> -->
 </a> 
 
