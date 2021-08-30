@@ -7,7 +7,7 @@ tags:
   - session
   - tomcat
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 
 2대 이상의 서버에서 서비스하고 있다면 세션 저장소에 대하여 다음의 3가지 중 한 가지를 선택한다. 

@@ -7,7 +7,7 @@ tags:
   - serialization
   - deserialization
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 
 직렬화: 객체 형태의 데이터를 연속적인 형태의 데이터로 변환하는 것. 객체 형태의 데이터를 통째로 파일로 저장하거나 스트림을 통해 전송하고 싶을 때 사용한다. 

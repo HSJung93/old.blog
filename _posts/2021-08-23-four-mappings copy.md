@@ -9,7 +9,7 @@ tags:
   - ManyToOne
   - ManyToMany
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 데이터베이스의 테이블 간의 조인 시에는 4가지 매핑이 존재한다.
 1. `@OneToOne`: 사용자(user)와 사용자 상세정보(user_detail)를 테이블로 빼놓을 수 있다. 

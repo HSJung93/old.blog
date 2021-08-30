@@ -7,7 +7,7 @@ tags:
   - java
   - junit
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 
 JUnit4 에서 Junit5로의 변화를 정리해 보았습니다.

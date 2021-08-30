@@ -7,7 +7,7 @@ tags:
   - linked list
   - 시간 복잡도
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 배열과 비교한 링크드 리스트의 특징과 시간 복잡도에 대하여 정리해보았습니다.
 파이썬으로 구현한 자료구조 코드는 [이곳][python-data-structure]에서 보실 수 있습니다.

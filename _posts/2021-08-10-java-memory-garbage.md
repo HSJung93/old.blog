@@ -7,7 +7,7 @@ tags:
   - JVM
   - JGC
 header:
-  teaser: /assets/images/code.jpg
+  teaser: /assets/images/slipBox.jpg
 ---
 자바 메모리 관리에 대하여 정리한 포스팅입니다. [yaboong][main]님의 기념비적인 포스팅에서 많은 도움을 받았습니다. 
 
