@@ -38,6 +38,10 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
+pagination: 
+  enabled: true
+  per_page: 10
+  sort_reverse: true
 paginate: 10 # amount of posts to show
 paginate_path: "/page:num/"
 timezone: Asia/Seoul
