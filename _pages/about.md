@@ -1,13 +1,11 @@
 ---
 permalink: /about/
-author_profile: false
 title: ""
 classes: wide
 ---
-<a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
+<!-- <a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/profile.jpg" alt="" > 
-    <!-- <p style="text-align: right"> Caspar David Friedrich, 해변의 수도승, 1808-10 </p> -->
-</a> 
+</a>  -->
 
 ## 개요
 * 효율적으로 문제를 해결하기 위하여 고민하고, 라이브러리와 프레임워크를 뜯어보는 과정이 중요하다 생각하는 개발자 입니다.
