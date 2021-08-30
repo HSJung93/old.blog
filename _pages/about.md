@@ -3,7 +3,7 @@ permalink: /about/
 classes: wide
 ---
 <a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portfolio.jpeg" alt="" > 
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/portfolio.png" alt="" > 
 </a> 
 
 ## 개요
