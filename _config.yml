@@ -16,7 +16,7 @@
 title: Home
 email: jrps2212@gmail.com
 description: # this means to ignore newlines until "baseurl:"
-  하나를 제대로 다룰 줄 아는 개발자가 되고 싶습니다.
+  꼼꼼한 개발자가 되자
 # twitter_username: username
 github_username: HSJung93
 minimal_mistakes_skin: default
@@ -71,7 +71,7 @@ plugins:
 author:
   name   : "정회성"
   avatar : "/assets/images/profile.jpg"
-  bio    : "하나를 제대로 다룰 줄 아는 개발자가 되고 싶습니다."
+  bio    : "꼼꼼한 개발자가 되자"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"

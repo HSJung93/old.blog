@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: ""
+title: "정회성 | 꼼꼼한 개발자"
 classes: wide
 ---
 <!-- <a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
