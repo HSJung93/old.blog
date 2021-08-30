@@ -7,6 +7,7 @@ tags:
   - game theory
 toc: true
 toc_sticky: true
+paginate_path: '/index/:num/pagination-plugin/'
 ---
 
 When classifying games through information, the complete information game and the perfect information game always make me confusing.

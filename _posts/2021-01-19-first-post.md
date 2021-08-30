@@ -6,6 +6,7 @@ categories:
 tags:
   - Jekyll
   - daily
+paginate_path: '/index/:num/pagination-plugin/'
 ---
 
 Jekyll minimal mistake 테마와 github를 이용하여 블로그를 만들게 되었습니다.
