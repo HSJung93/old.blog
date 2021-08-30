@@ -1,9 +1,9 @@
 main:
-  #  - title: "About"
-  #    url: /about/
-  - title: "Timeline"
-    url: /index/
-  - title: "Category"
+  - title: "포트폴리오"
+    url: /about/
+  # - title: "Timeline"
+  #   url: /index/
+  - title: "카테고리"
     url: /categories/
 #  - title: "Tags"
 #    url: /tags/

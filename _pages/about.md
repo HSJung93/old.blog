@@ -1,11 +1,8 @@
 ---
-permalink: /
+permalink: /about/
 title: ""
 author_profile: true
 classes: wide
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 <a href="https://en.wikipedia.org/wiki/The_Monk_by_the_Sea">
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Caspar_900x550.jpg" alt="" > 
