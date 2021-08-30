@@ -2,7 +2,7 @@ main:
   #  - title: "About"
   #    url: /about/
   - title: "Timeline"
-    url: /index/
+    url: /index/:num/
   - title: "Category"
     url: /categories/
 #  - title: "Tags"
