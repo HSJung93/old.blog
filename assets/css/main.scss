@@ -3,14 +3,14 @@
 ---
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: "Fira Code";
+$sans-serif: "Noto Sans KR";
 $monospace: "Fira Code";
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/air"; // skin
 @import "minimal-mistakes";
 
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Fira+Code);
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
