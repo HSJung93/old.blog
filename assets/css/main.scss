@@ -3,18 +3,18 @@
 ---
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: "Noto Serif KR";
-$monospace: "JetBrains Mono";
+$sans-serif: "Fira Code";
+$monospace: "Fira Code";
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/air"; // skin
 @import "minimal-mistakes";
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif+KR|JetBrains+Mono);
+@import url(https://fonts.googleapis.com/css?family=Fira+Code);
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
-  font-size: 14px; // change to whatever
+  font-size: 15px; // change to whatever
 
   @include breakpoint($medium) {
     font-size: 16px; // change to whatever
