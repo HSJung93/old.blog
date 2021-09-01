@@ -38,7 +38,8 @@ classes: wide
   * IntelliJ, Visual Studio Code, Vim
   * Git
 * DevOps
-  * AWS EC2, S3
+  * AWS EC2, S3, CodeDeploy
+  * Travis CI, Nginx
   * MySQL, MariaDB
   * Tomcat
 * Frontend
