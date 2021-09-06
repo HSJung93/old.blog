@@ -1,5 +1,5 @@
 ---
-title: "Value냐 Reference냐 그것이 문제로다"
+title: "Python itertools 패키지 총정리"
 date: 2021-09-06T18:28:00+09:00
 categories:
   - 코드
