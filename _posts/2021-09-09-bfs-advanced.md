@@ -16,6 +16,7 @@ bfs의 응용 문제들을 모아봤습니다.
 ## 술래잡기 
 * 백준 1697
 * dp로 착각하기 쉽지만 양방향으로 이동한다는 점에서 dp bottom-up 방식으로 풀기 쉽지 않다.  
+
 ```python
 import sys, math
 from collections import deque
@@ -55,11 +56,12 @@ while q:
             dist[next] = dist[now] + 1
             # 새롭게 큐에 넣기
             q.append(next)
-
 ```
+
 ## 술래잡기 2: 움직이는 경우
 * 라인 기출
 * 큐를 while문 안에서 for문으로 먼저 다 빼서 시간을 맞춘다.
+
 ```python
             
 from collections import deque
@@ -114,11 +116,12 @@ def solution(conyPosition, brownPosition):
         time += 1
         
 print(solution(11, 2))
-
 ```
+
 ## 아기상어
 * 이중리스트 공간에 조건부의 갈수 있는 공간이 있는 경우, graph 에 직접 변형한다. 직접 변형해야할때는 bfs() 함수에 변수로 받지 않는다.
 * 조건부 이동이 있는 경우, 다음 이동 큐를 돌리기 전에 조건부 이동에 대한 리스트를 저장해 두고 필요한 조작을 가한다. 일단 새로운 기능이 있으면 새로운 리스트가 필요하다.
+
 ```python
         
 import sys
@@ -197,32 +200,12 @@ while search(weight, graph):
     x, y, weight, time, eat = bfs(x, y, weight, time, eat) # 그래프는 역시 변수에 없음
     
 print(time)
-                        
-"""
-input:
-3
-0 0 1
-0 0 0
-0 9 0
-output:
-3
-
-input:
-6
-5 4 3 2 3 4
-4 3 2 3 4 5
-3 2 9 5 6 6
-2 1 2 3 4 5
-3 2 1 6 5 4
-6 6 6 6 6 6
-output:
-60
-"""
-
 ```
+
 ## 백준 17142
 * 여러 초기값, 최대 최소값
 * 아예 간편하게 길이를 위한 이중 리스트를 만들어 버리는게 편하다. 
+
 ```python
 
 from itertools import combinations
