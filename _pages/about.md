@@ -21,9 +21,9 @@ classes: wide
   * Maria DB를 Spring Data JPA를 이용하여 API, 페이지 처리 및 검색, @OneToMany 관계 설정, FetchType 설정, 커스텀 쿼리 작성 등을 구현하였습니다. 
   * 템플릿 엔진으로는 타임리프를 사용하였으며, 부트스트랩을 참고하여 주요 레이아웃과 버튼 그리고 폼을 작성하였습니다. 스프링 시큐리티를 이용하여 로그인 처리를 하였습니다.
 * [부스트코스 풀스택 개발자 과정 백엔드][back-github]
-  * SpringMVC로 구현한 웹 프로젝트입니다.
-  * Servlet, JSP, Tomcat, Session & Cookie
-  * MySQL 데이터 베이스를 JDBC를 이용하여 사용하였습니다.
+  * SpringMVC를 사용하여 API, Cookie 및 Session, 인터셉터, 아규먼트 리졸버, 로깅, 파일 업로드 및 다운로드 등을 구현한 프로젝트 입니다. 
+  * 자바로 JSP와 서블릿을 실행할 수 있는 환경을 제공하는 Tomcat을 사용하여, Model, View, Controller를 모델을 이해하고 구현하였습니다. 
+  * MySQL 데이터 베이스와 Spring JDBC를 사용하였습니다.
 * [FastAPI를 이용한 웹 어플리케이션][fast-api]
   * [비동기/ 병렬 처리][concurrency-parallelism]를 지원하는 파이썬 기반의 웹 프레임워크인 FastAPI를 이용한 프로젝트입니다.
 * [자바 병렬 프로그래밍][concurrency-github]
