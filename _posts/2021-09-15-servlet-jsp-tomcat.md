@@ -1,5 +1,5 @@
 ---
-title: "WAS, Tomcat, Servlet, JSP"
+title: "MVC 모델이란"
 date: 2021-09-15T11:32:00+09:00
 categories:
   - 메모
@@ -11,7 +11,7 @@ tag:
 header:
   teaser: /assets/images/slipBox.jpg
 ---
-
+JSP와 서블릿으로 웹 어플리케이션 서버를 구현하는 대표적인 구조인 MVC 모델에 대한 포스팅입니다.
 ## WAS와 Tomcat
 웹서버는 클라이언트가 서버에 페이지 요청을 하면 요청으 받아서 정적 컨텐츠를 제공한다. Web Application Server(WAS)는 DB 조회나 로직 처리 등 동적 컨텐츠를 제공하기 위해서 만들어진 서버이다. **WAS는 웹서버와 다양한 기능을 구현할 수 있는 컨테이너를 결합**한 것이다. 클라이언트로부터 동적인 컨텐츠에 대한 요청이 오면 웹서버가 컨테이너로 http 요청을 보낸다. **웹서버와 연동하여 실행할 수 있는 자바 환경을 제공하는 대표적인 WAS의 예시로 Tomcat**을 들 수 있다. 
 
