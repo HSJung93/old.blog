@@ -22,7 +22,7 @@ classes: wide
   * 템플릿 엔진으로는 타임리프를 사용하였으며, 부트스트랩을 참고하여 주요 레이아웃과 버튼 그리고 폼을 작성하였습니다. 스프링 시큐리티를 이용하여 로그인 처리를 하였습니다.
 * [부스트코스 풀스택 개발자 과정 백엔드][back-github]
   * SpringMVC로 구현한 웹 프로젝트입니다.
-  * JSP, WAS, tomcat, servlet, JDBC, Session & Cookie
+  * Servlet, JSP, Tomcat, Session & Cookie
   * MySQL 데이터 베이스를 JDBC를 이용하여 사용하였습니다.
 * [FastAPI를 이용한 웹 어플리케이션][fast-api]
   * [비동기/ 병렬 처리][concurrency-parallelism]를 지원하는 파이썬 기반의 웹 프레임워크인 FastAPI를 이용한 프로젝트입니다.
@@ -44,7 +44,6 @@ classes: wide
   * AWS EC2, S3, CodeDeploy
   * Travis CI, Nginx
   * MySQL, MariaDB
-  * Tomcat
 * Frontend
   * HTML 5, CSS3(SCSS), JS
   * React
