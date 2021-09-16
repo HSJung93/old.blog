@@ -79,7 +79,7 @@ rooms;
 
 ```javascript
 var rooms = ["H1", "H2", "H3"];
-Var newRooms = rooms.map(function (rm) {
+var newRooms = rooms.map(function (rm) {
     if (rm == "H3") { return "H4"; }
     else { return rm; }
 });
