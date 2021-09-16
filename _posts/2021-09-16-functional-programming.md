@@ -8,10 +8,10 @@ tag:
   - 자바 스크립트
 header:
   teaser: /assets/images/code.jpg
+toc: true
+toc_sticky: true
 ---
-
-## JavaScript로 함수형 프로그래밍 배우기 - Anjana Vakil - JSUnconf
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e-5obm1G_FY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+이 포스팅은 2016년 JSUnconf에서의 Anjana Vakil의 강연 내용에 기반하였습니다.
 
 ## 함수형 프로그래밍과 명령형 프로그래밍
 함수형 프로그래밍은 프로그래밍 패러다임, 코딩 스타일, 사고방식의 하나이다. 객체형 프로그래밍에 비하여 디버그와 유지 관리가 더 쉽다. 
@@ -90,3 +90,6 @@ rooms;
 불변성의 문제는 배열 같은 것이 불변한다고 했을 때 계속 사본이 생긴다는 점이다. 리스트에서 하나의 요소를 바꾸고 싶어도 배열 전체를 새로 만들어야 한다. 객체가 크고 복잡해지면 효율이 떨어지게 된다. 이와 같은 문제를 해결하기 위한 함수형 프로그래밍의 전략이 영속 데이터 구조이다. Phil Bagwell이 이상적인 해쉬트리라는 논문의 이론으로 시작했고, Clojure 언어를 개발한 Rich Hickey가 Bagwell의 아이디어로 데이터 구조를 도입했다. 
 
 기존 구조를 재사용하는 구조 공유을 통하여, 기존 버전과 새 버전을 부분적으로 공유해 벡터에서 뭔가를 추가, 변경, 이동하는 작업을 효율적으로 한다. 예컨대 리스트의 각 요소를 트리의 리프노드로 두고, 변경할 요소의 노드를 제거한 뒤 새로운 요소의 노드를 연결한다. 그러면 기존 구조를 재사용하여 이뮤터블 데이터를 업데이트하는데에 시간과 공간을 아낄 수 있다. 자바스크립트 라이브러리 중에서는, 데이터 구조를 네이티비를 가지고 있는 ClojureScript를 사용해서 자바스크립트에 포팅하는 Mori나 facebook에서 발표한 Immutable.js가 유명하다.
+
+## 참조
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e-5obm1G_FY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

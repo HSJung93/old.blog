@@ -10,6 +10,8 @@ tag:
   - WAS
 header:
   teaser: /assets/images/slipBox.jpg
+toc: true
+toc_sticky: true
 ---
 JSP와 서블릿으로 웹 어플리케이션 서버를 구현하는 대표적인 구조인 MVC 모델에 대한 포스팅입니다.
 ## WAS와 Tomcat
