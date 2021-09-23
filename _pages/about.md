@@ -24,10 +24,13 @@ classes: wide
   * SpringMVC를 사용하여 API, Cookie 및 Session, 인터셉터, 아규먼트 리졸버, 로깅, 파일 업로드 및 다운로드 등을 구현한 프로젝트 입니다. 
   * 자바로 JSP와 서블릿을 실행할 수 있는 환경을 제공하는 Tomcat을 사용하여, Model, View, Controller를 모델을 이해하고 구현하였습니다. 
   * MySQL 데이터 베이스와 Spring JDBC를 사용하였습니다.
+* [하둡 프로젝트][hadoop-mapreduce-github]
+  * 하둡 맵리듀스 설치 후 기본적인 명령어들을 실습. hdfs 등 관련 내용 정리.
+  * 도커와 제플린을 사용하여 하둡 스파크의 기본적인 명령어들을 scala로 실습.
+  * AWS를 이용하여 하둡 카프카 실습한 내용 정리.
 * [FastAPI를 이용한 웹 어플리케이션][fast-api]
   * [비동기/ 병렬 처리][concurrency-parallelism]를 지원하는 파이썬 기반의 웹 프레임워크인 FastAPI를 이용한 프로젝트입니다.
 * [자바 병렬 프로그래밍][concurrency-github]
-* [하둡 맵리듀스][hadoop-mapreduce-github]
 * [자바 계산기][calculator-github]
 
 ## 기술 스택  
