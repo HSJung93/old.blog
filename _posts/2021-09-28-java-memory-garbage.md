@@ -1,11 +1,11 @@
 ---
 title: "자바 메모리 관리와 가비지 컬렉션"
-date: 2021-08-10T14:40:00+09:00
+date: 2021-09-28T12:24:00+09:00
 categories:
   - 메모
 tags:
   - JVM
-  - JGC
+  - GC
 header:
   teaser: /assets/images/slipBox.jpg
 ---
@@ -39,11 +39,28 @@ header:
 * `System.gc()`를 호출하여 명시적으로 가비지 콜렉션이 일어나도록 코드를 삽입할 수는 있지만 모든 스레드가 중단되기 때문에 코드단에서 호출하지 말아야 한다. 
 * 자바 8부터 클래스들은 모두 힙이 아닌 네이티브 메모리를 사용하는 Metaspace에 할당된다. 
 
+## JVM 힙
+* JVM의 메모리는 클래스, 자바 스택, 힙, 네이티브 메소드 스택의 4개의 영역으로 나뉜다. 가비지 콜렉터에서는 힙 메모리를 관장한다.
+* 힙 메모리는 Young, Old, Perm 3 영역으로 나뉜다. Young 은 Eden과 Survivor 0, 1, 3 영역으로 세분화된다. 
+* 메모리에 객체가 생성되면 Eden 영역에 생성된다. Eden 영역에 데이터가 어느 정도 쌓이면 이 영역에 있던 객체가 Survivor 영역으로 옮겨 간다. 두 Survivor 영역 중 하나는 반드시 비어있다. 
+* Survivor 영역이 차면 Minor GC가 일어난다. Eden과 Survivor 영역에 있는 객체가 비어있던 Survivor 영역으로 이동한다. 
+* Minor GC는 Young 영역에서 발생하는 GC를 부르는 말이다. Major GC는 Old 영역이나 Perm 영역에서 발생하는 GC이다. 
+* Old 영역에서는 1. 마크 - 2. 스윕 - 3. 컴팩트 알고리즘이 1. 수행된다. Old 영역으로 이동된 객체들 중 살아 있는 객체들을 식별하고, 2. 객체들을 훑으며 쓰레기 객체를 식별한 뒤, 3. 필요 없는 객체들을 지우고 살아 있는 객체를 한 곳으로 모은다. 
+* GC가 발생하거나 객체가 각 영역에서 다른 영역으로 이동할 때 애플리케이션의 병목이 발생하면서 성능에 영향을 준다. 
+* 핫 스팟 JVM에서는 스레드 로컬 할당 버퍼를 사용하여, 다른 스레드에 영향을 주지 않는 메모리 할당 작업을 하기도 한다. 
+
+# 가비지 콜렉터 방식들
+1. 시리얼 콜렉터: Young과 Old 영역이 시리얼하게 처리되며 하나의 CPU 사용한다.
+2. 병렬 콜렉터: Young 영역에서의 콜렉션을 병렬로 처리한다. 많은 CPU를 사용한다.
+3. 병렬 컴팩팅 콜렉터: Old 영역에서 많은 CPU 사용한다?
+4. 컨큐런트 마크 스윕 콜렉터: Old 영역에서 Compact(메모리 몰기) 대신에, Remark와 Concurrent Sweep을 한다. 병렬 뿐 아니라 Concurrent 기능도 수행한다. 
+
 ## 참고 링크
 * [자바 메모리 관리 - 스택과 힙][yaboong-blog-memory-management]
 * [자바 메모리 관리 - 가비지 컬렉션][yaboong-blog-garbage-collection]
-
+* [가비지 컬렉터(GC) 이해하기][gc+]
 
 [main]: https://yaboong.github.io/
 [yaboong-blog-memory-management]: https://yaboong.github.io/java/2018/05/26/java-memory-management/
 [yaboong-blog-garbage-collection]: https://yaboong.github.io/java/2018/06/09/java-garbage-collection/
+[gc+]: https://12bme.tistory.com/57
