@@ -12,4 +12,4 @@ header:
 
 프로그래머스의 SQL 킷 문제들을 완료했습니다.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sql-small.png" alt="" >
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sql_small.png" alt="" >

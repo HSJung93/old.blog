@@ -52,7 +52,7 @@ classes: wide
   - Travis CI, Nginx
   - MySQL, MariaDB
     <a>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sql-small.png" alt="" >
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sql_small.png" alt="" >
     </a>
 - Frontend
   - HTML 5, CSS3(SCSS), JS
