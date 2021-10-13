@@ -27,7 +27,7 @@ classes: wide
   - SpringMVC를 사용하여 API, Cookie 및 Session, 인터셉터, 아규먼트 리졸버, 로깅, 파일 업로드 및 다운로드 등을 구현한 프로젝트 입니다.
   - 자바로 JSP와 서블릿을 실행할 수 있는 환경을 제공하는 Tomcat을 사용하여, Model, View, Controller를 모델을 이해하고 구현하였습니다.
   - MySQL 데이터 베이스와 Spring JDBC를 사용하였습니다.
-- [도커 컴포즈로 하둡 클러스터 빌드][docker-hadoop]
+- [도커 컴포즈로 하둡 클러스터 만들기][docker-hadoop]
   - Docker Compose를 이용하여 복수의 컨테이너들을 설치하였습니다.
   - Mapreduce 실습을 위한 jar 파일을 namenode 컨테이너에 복사한 뒤 hdfs에 업로드하였습니다.
   - hadoop jar 명령어로 맵리듀스 작업을 실행합니다.
