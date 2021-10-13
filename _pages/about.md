@@ -39,6 +39,11 @@ classes: wide
   - 비동기/ 병렬 처리를 지원하는 파이썬 기반의 웹 프레임워크인 FastAPI를 이용한 프로젝트입니다.
   - 파이썬은 객체를 참조하는 객체들의 갯수를 기록한 뒤, 그 갯수가 0이 되면 메모리를 정리합니다. 이에 복수의 스레드 이용을 방지하는 GIL이 걸려져 있습니다. 이에 파이썬은 비동기/병렬 처리를 위하여 코루틴이라는 기법을 사용합니다.
   - 블로그 포스팅에 따로 [비동기/ 병렬 처리와 코루틴][concurrency-parallelism]에 대한 내용을 공부하고 정리하였습니다.
+- [깃을 이용한 협업 연습][git-co-work]
+  - fotGitTest1 아이디를 만들어서 -Git-forGitTest 레포지토리를 만들었습니다.
+  - HSJung93 아이디로 이를 fork 해온 뒤에 '컨텐츠-더하기'라는 브랜치를 새로 만들고, 버전 관리도 연습합니다.
+  - HSJung93 아이디로 pull request를 보낸 뒤, forGitTest1으로 승인, merge 합니다.
+  - 이중 인격, 혼자 놀기의 진수를 엿볼 수 있습니다!
 - [자바 병렬 프로그래밍][concurrency-github]
 - [자바 계산기][calculator-github]
 
@@ -104,3 +109,4 @@ classes: wide
 [fast-api]: https://github.com/HSJung93/FastAPIProject
 [concurrency-parallelism]: https://hsjung93.github.io/%EC%BD%94%EB%93%9C/coroutine/
 [docker-hadoop]: https://github.com/HSJung93/DockerHadoop
+[git-co-work]: https://github.com/HSJung93/-Git-forGitTest
