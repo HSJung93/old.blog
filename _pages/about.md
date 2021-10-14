@@ -62,9 +62,9 @@ classes: wide
   - AWS EC2, S3, CodeDeploy
   - Travis CI, Nginx
   - MySQL, MariaDB
-    <a>
+    <!-- <a>
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sql_small.png" alt="" >
-    </a>
+    </a> -->
 - Frontend
   - HTML 5, CSS3(SCSS), JS
   - React
