@@ -1,6 +1,6 @@
 ---
-title: "Reader-Writer-Lock"
-date: 2021-11-05T15:52:00+09:00
+title: "Block vs Nonblock - Synch vs Asynch"
+date: 2021-11-05T16:25:00+09:00
 categories:
   - 메모
 tags:
