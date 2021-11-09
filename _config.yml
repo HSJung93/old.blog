@@ -40,16 +40,16 @@ favicon: "" # the favicon for your site
 yat:
   date_format: "%b %d, %Y"
 
-comments:
-  provider: disqus
-  disqus:
-    shortname: "hsjung93-github-io"
+# comments:
+#   provider: disqus
+#   disqus:
+#     shortname: "hsjung93-github-io"
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-6NFHN29X4H"
-    anonymize_ip: # true, false (default)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-6NFHN29X4H"
+#     anonymize_ip: # true, false (default)
 
 # If you want more debug log, you can set true
 # debug: false
@@ -140,10 +140,10 @@ analytics:
 # this and add the path to the pages in order as they should show up
 header_pages:
   # - index.html
-  - archives.html
-  - categories.html
-  - tags.html
   - about.md
+  - categories.html
+  - archives.html
+  # - tags.html
 
 # Page default value
 defaults:
@@ -174,9 +174,9 @@ defaults:
 # Pagination setting
 paginate: 5
 
-# Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+Disqus comments
+disqus:
+  shortname: "hsjung93-github-io"
 
 # Gitment comments
 # gitment:
