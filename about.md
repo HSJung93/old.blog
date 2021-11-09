@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-classes: wide
+toc: falset
 ---
 
 <a>
