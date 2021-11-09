@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-toc: falset
+toc: false
 ---
 
 <a>
