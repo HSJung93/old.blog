@@ -2,6 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Fira+Code);
+$sans-serif: "Noto Sans KR";
+$monospace: "Fira Code";
+
 // Default theme colors
 $theme-colors: (
   "coolblack": #090a0b,
