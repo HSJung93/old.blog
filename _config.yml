@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 정회성의 DE'VLOG
+title: DE'VLOG
 email: jrps2212@gmail.com
 author: HSJung93
 copyright: Copyright © 1970-2010
@@ -138,19 +138,19 @@ analytics:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  # - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "정회성의 DE'VLOG"
+    subheading: "모르면 아는 척하지 않고 배우는 개발자."
+    banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -172,7 +172,7 @@ analytics:
 # excerpt_size: 350
 
 # Pagination setting
-# paginate: 5
+paginate: 5
 
 # Disqus comments
 # disqus:
