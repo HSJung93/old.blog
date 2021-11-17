@@ -27,7 +27,7 @@
 title: DE'VLOG
 email: jrps2212@gmail.com
 author: HSJung93
-copyright: Copyright © 2020-2021
+copyright: Copyright © 1970-2010
 description: >- # this means to ignore newlines until "baseurl:"
   모르면 아는 척하지 않고 배우는 개발자
 
@@ -142,14 +142,14 @@ header_pages:
   # - index.html
   - archives.html
   - categories.html
-  # - tags.html
+  - tags.html
   - about.md
 
 # Page default value
 defaults:
   home:
     heading: "정회성의 DE'VLOG"
-    subheading: "모르면 아는 척하지 않고 배우는 개발자."
+    subheading: "모르면 아는 척하지 않고 배우는 개발자"
     banner: "Your image url"
 
 # Banner default settings
