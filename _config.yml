@@ -27,7 +27,7 @@
 title: DE'VLOG
 email: jrps2212@gmail.com
 author: HSJung93
-copyright: Copyright © 1970-2010
+copyright: Copyright © 2021-2021
 description: >- # this means to ignore newlines until "baseurl:"
   모르면 아는 척하지 않고 배우는 개발자
 
@@ -174,7 +174,7 @@ defaults:
 # Pagination setting
 paginate: 5
 
-Disqus comments
+# Disqus comments
 disqus:
   shortname: "hsjung93-github-io"
 
