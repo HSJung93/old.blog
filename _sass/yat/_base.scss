@@ -196,7 +196,7 @@ pre {
  */
 .wrapper {
   max-width: $content-width;
-  margin: 100px; // auto 테스트;
+  margin: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
