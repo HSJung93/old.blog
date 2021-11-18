@@ -45,11 +45,11 @@ yat:
 #   disqus:
 #     shortname: "hsjung93-github-io"
 
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "G-6NFHN29X4H"
-#     anonymize_ip: # true, false (default)
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-14TCBW9W2N"
+    # anonymize_ip: # true, false (default)
 
 # If you want more debug log, you can set true
 # debug: false
@@ -172,11 +172,15 @@ defaults:
 # excerpt_size: 350
 
 # Pagination setting
-paginate: 5
+paginate: 10
+
+# Utteranc comments
+utteranc:
+  shortname: "hsjung93_github_io"
 
 # Disqus comments
-disqus:
-  shortname: "hsjung93-github-io"
+# disqus:
+#   shortname: "hsjung93-github-io"
 
 # Gitment comments
 # gitment:
