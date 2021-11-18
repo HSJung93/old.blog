@@ -1,8 +1,13 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+// Helvetica, Arial, Oswald, sans-serif
 
-$base-font-family: Helvetica, Arial, Oswald, sans-serif !default;
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR);
+$sans: "Noto Sans KR";
+$serif: "Noto Serif KR";
+
+$base-font-family: $sans, $serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
