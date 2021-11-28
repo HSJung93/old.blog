@@ -1,2 +1,3 @@
-# jekyll-theme-yat-1.8.0
- gitblog
+# 개발 블로그를 위한 코드 저장소 입니다.
+
+- jekyll-theme-yat-1.8.0를 사용하였습니다.
