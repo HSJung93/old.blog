@@ -68,7 +68,7 @@ google_analytics: "G-14TCBW9W2N" #[Tracking ID]
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
+translate_langs: []
 #   - lang: en
 #     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
 #     text: English
