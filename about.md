@@ -16,30 +16,31 @@ toc: false
 
 ## 기술 스택
 
-- Backend
+### Backend
 
-  - Java, Python
-  - SpringBoot, SpringMVC, Spring Data JPA, Django, FastAPI
-  - Spring Security, OAuth 2.0
-  - Junit4, Junit5, Pytest
-  - Gradle, Maven
-  - MySQL, MariaDB
-  - IntelliJ, Visual Studio Code, Vim
-  - Git
+- Java, Python
+- SpringBoot, SpringMVC, Spring Data JPA, Django, FastAPI
+- Spring Security, OAuth 2.0
+- Junit4, Junit5, Pytest
+- Gradle, Maven
+- MySQL, MariaDB
+- IntelliJ, Visual Studio Code, Vim
+- Git
 
-- DevOps
+### DevOps
 
-  - AWS EC2, S3, CodeDeploy
-  - Travis CI, Nginx
+- AWS EC2, S3, CodeDeploy
+- Travis CI, Nginx
 
-- Frontend
+### Frontend
 
-  - HTML 5, CSS3(SCSS), JS
-  - React
+- HTML 5, CSS3(SCSS), JS
+- React
 
-- Data Science
-  - Python, R
-  - Pytorch, PyStan, Tidyverse, RStan
+### Data Science
+
+- Python, R
+- Pytorch, PyStan, Tidyverse, RStan
 
 ## 프로젝트
 
