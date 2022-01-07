@@ -37,7 +37,7 @@ toc: false
 - HTML 5, CSS3(SCSS), JS
 - React
 
-### Data Science
+### Data_Science
 
 - Python, R
 - Pytorch, PyStan, Tidyverse, RStan
