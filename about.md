@@ -46,6 +46,8 @@ toc: false
 
 ### Backend
 
+#### Java(Spring)
+
 - [나홀로 웹에][alone-github]
   - SpringBoot로 배포단계까지 구현한 웹서비스입니다. 스프링 이니셜라이저를 사용하지는 않고, 직접 Gradle에 플러그인 의존성을 위한 관리를 설정하였습니다. JUnit4로 단위 테스트 코드를 작성하였습니다.
   - 인메모리형 관계형 데이터베이스인 h2를 Spring Data JPA를 이용하여 테스트 단계에서 사용하였습니다. 템플릿 엔진으로는 Mustache를 사용하였으며, 스프링 시큐리티와 OAuth 2.0으로 로그인 기능을 구현하였습니다.
@@ -58,6 +60,9 @@ toc: false
   - SpringMVC를 사용하여 API, Cookie 및 Session, 인터셉터, 아규먼트 리졸버, 로깅, 파일 업로드 및 다운로드 등을 구현한 프로젝트 입니다.
   - 자바로 JSP와 서블릿을 실행할 수 있는 환경을 제공하는 Tomcat을 사용하여, Model, View, Controller를 모델을 이해하고 구현하였습니다.
   - MySQL 데이터 베이스와 Spring JDBC를 사용하였습니다.
+
+#### Python(Django, FastAPI)
+
 - [Django를 이용한 URL Shortener와 블로그 만들기][django-web]
   - 블로그의 경우 글쓰기 수정, 삭제, 댓글 기능을 구현하였습니다. 부트스트랩 4.5.3을 사용하였으며 Django에서 기본적으로 제공하는 admin page를 사용합니다. /feed url에 RSS를 구현하였습니다.
   - Docker-compose를 사용하여 Django와 Nginx로 두 개의 도커를 구동한 뒤 포트와 uwsgi 설정을 연결하였습니다.
@@ -68,12 +73,23 @@ toc: false
 
 ### Frontend
 
+- [벨로퍼트와 함께하는 모던 리액트][begin-react-github]
+  - [깃북 주소][begin-react-gitbook]
+  - React, React Router, Redux, Redux Middleware, Typescript
 - [부스트코스 풀스택 개발자 과정 프론트엔드][front-github]
   - Vanilla JS
 - [To-Do-List 만들기][react-github]
   - React
 
-### Big_data
+### Full_Stack
+
+- [React와 Spring으로 인증서버 만들기][react-spring-auth]
+  - React와 Typescript로 로그인/회원가입 페이지만들기
+  - Spring과 Spring Security로 salt를 사용하는 토큰을 사용한 인증 기능 구현
+  - Redis를 Token을 저장하고 파기하는 캐시 DB로 사용/ MySQL를 유저 정보를 저장 및 확인하는 사용자 DB로 사용
+  - Google SMTP로 회원가입 메일 발송
+
+### Big_Data
 
 - [도커 컴포즈로 하둡 클러스터 만들기][docker-hadoop]
   - Docker Compose를 이용하여 복수의 컨테이너들을 설치하였습니다.
@@ -92,7 +108,7 @@ toc: false
 - [국회의원의 FTA 반응성에 대한 연구: 지역구 산업 비율과 FTA 발언 횟수의 상관관계][python-r-congress]
 - 국회의원의 싸움과 국회의원 선수간의 게임 이론 모델 분석: 국회 상임위원회 회의록 분석
 
-### etc
+### et_cetera
 
 - [깃을 이용한 협업 연습][git-co-work]
   - fotGitTest1 아이디를 만들어서 -Git-forGitTest 레포지토리를 만들었습니다.
@@ -108,7 +124,9 @@ toc: false
 - 공군 만기 전역
 - 서울대학교 빅데이터 핀테크 과정 수료
 - 에이젠 글로벌 인턴
-- 서울대학교 외교학 전공 대학원 졸업 예정
+- 서울대학교 외교학 전공 대학원 수료(베이즈 통계학, 국제정치경제학 전공)
+- 스마일게이트 스토브 개발 캠프 2기 참여
+- SK텔레콤 서버 백엔드 개발자
 
 [react-github]: https://github.com/HSJung93/-React-ToDoList
 [concurrency-github]: https://github.com/HSJung93/-Java-ConcurrencyInPractice
@@ -127,3 +145,6 @@ toc: false
 [git-co-work]: https://github.com/HSJung93/-Git-forGitTest
 [django-web]: https://github.com/HSJung93/django_docker
 [python-r-congress]: https://github.com/HSJung93/-Python-R-CongressFTA
+[begin-react-github]: https://github.com/HSJung93/begin-react
+[begin-react-gitbook]: https://react.vlpt.us/
+[react-spring-auth]: https://github.com/HSJung93/spring-auth-token
