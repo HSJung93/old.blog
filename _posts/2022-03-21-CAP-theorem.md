@@ -1,5 +1,5 @@
 ---
-title: "What is CAP Theorem"
+title: "What is the CAP Theorem"
 date: 2022-03-21T09:46:00+09:00
 categories:
   - Memo
