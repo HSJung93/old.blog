@@ -148,8 +148,8 @@ header_pages:
 # Page default value
 defaults:
   home:
-    heading: "정회성의 DE'VLOG"
-    subheading: "모르면 아는 척하지 않고 배우는 개발자"
+    heading: "Hoesung's DE'VLOG"
+    subheading: "It's harder to reade code than to write it"
     banner: "Your image url"
 
 # Banner default settings

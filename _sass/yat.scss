@@ -3,8 +3,8 @@
 // Define defaults for each variable.
 // Helvetica, Arial, Oswald, sans-serif
 
-@import url(https://fonts.googleapis.com/css?family=Roboto|Noto+Serif+KR);
-$sans: "Roboto";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR);
+$sans: "Noto Sans KR";
 $serif: "Noto Serif KR";
 
 $base-font-family: $sans, $serif !default;
