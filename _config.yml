@@ -149,7 +149,7 @@ header_pages:
 defaults:
   home:
     heading: "Hoesung's DE'VLOG"
-    subheading: "It's harder to reade code than to write it"
+    subheading: "Code is like humor. When you have to explain it, it’s bad."
     banner: "Your image url"
 
 # Banner default settings
