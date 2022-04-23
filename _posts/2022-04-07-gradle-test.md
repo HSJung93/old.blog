@@ -1,5 +1,5 @@
 ---
-title: "Test Option In Gradle?"
+title: "Test Options in Gradle"
 date: 2022-04-07T09:24:00+09:00
 categories:
   - Memo
