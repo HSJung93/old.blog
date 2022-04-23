@@ -1,6 +1,6 @@
 ---
 title: "How to make new user in Go CD"
-date: 2022-04-11T09:24:00+09:00
+date: 2022-04-24T09:24:00+09:00
 categories:
   - Memo
 tags:
