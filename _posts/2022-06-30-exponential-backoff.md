@@ -1,5 +1,5 @@
 ---
-title: "Multipart form data"
+title: "Exponential Backoff"
 date: 2022-06-30T11:34:00+09:00
 categories:
   - Memo
