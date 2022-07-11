@@ -11,15 +11,13 @@ tags:
 #   teaser: /assets/images/code.jpg
 ---
 
-## Soft Delete with Spring JPA
-
-### Introduction
+## 1. Introduction
 
 - Sometimes there are business requirements to not permanently delete data from the database.
 - These requirements, for example, the need for data history tracking or audit and also related to reference integrity.
 - Instead of physically deleting the data, we can just hide that data so that it can't be accessed from the application front-end.
 
-### What Is Soft Delete?
+## 2. What Is Soft Delete?
 
 - Soft delete performs an update process to mark some data as deleted instead of physically deleting it from a table in the database.
 - A common way to implement soft delete is to add a field that will indicate whether data has been deleted or not.
@@ -43,11 +41,11 @@ update from table_product set deleted=1 where id=1
 select * from table_product where deleted=0
 ```
 
-### How to Implement Soft Delete in Spring JPA
+## 3. How to Implement Soft Delete in Spring JPA
 
 - With Spring JPA the implementation of soft delete has become much easier. We'll only need a few JPA annotations for this purpose.
 
-#### Entity Class
+### 3.1. Entity Class
 
 - A Product entity class:
 
@@ -97,15 +95,15 @@ public class Product {
 - turned it into a SQL update command that changes the deleted field value to true
 - `@Where` annotation will add a filter when we read the product data.
 
-#### Repository
+### 3.2. Repository
 
 - no special changes in the repository class
 
-#### Service
+### 3.3. Service
 
 - Also for the service class, there is nothing special yet
 
-### How to Get the Deleted Data?
+## 4. How to Get the Deleted Data?
 
 - By using the @Where annotation, we can't get the deleted product data in case we still want the deleted data to be accessible.
 - To implement this, we shouldn't use the `@Where` annotation but two different annotations, `@FilterDef`, and `@Filter`.
